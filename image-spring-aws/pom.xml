@@ -51,12 +51,12 @@
 		<dependency>
 			<groupId>org.apache.tomcat.embed</groupId>
 			<artifactId>tomcat-embed-jasper</artifactId>
-		</dependency>
-		tự động reset khi thay đổi code
+		</dependency> -->
+		<!-- tự động reset khi thay đổi code -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-devtools</artifactId>
-		</dependency> -->
+		</dependency> 
 	</dependencies>
 
 	<build>

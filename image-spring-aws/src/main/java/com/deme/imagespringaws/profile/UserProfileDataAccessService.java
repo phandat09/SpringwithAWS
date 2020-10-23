@@ -11,11 +11,12 @@ import com.deme.imagespringaws.datastore.FakeUserProfile;
 public class UserProfileDataAccessService {
 
 	private final FakeUserProfile fakeUserProfile;
+	
 	@Autowired
 	public UserProfileDataAccessService(FakeUserProfile fakeUserProfile) {
-		super();
 		this.fakeUserProfile = fakeUserProfile;
 	}
+	
 	List<UserProfile> getUserProFiles(){
 		return fakeUserProfile.getUserProfiles();
 	}
